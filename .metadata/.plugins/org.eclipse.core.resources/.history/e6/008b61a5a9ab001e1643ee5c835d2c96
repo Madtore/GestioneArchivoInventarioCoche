@@ -1,0 +1,14 @@
+package casopracticotres;
+
+public class Operacion {
+	private int a;
+	private int b;
+	
+	public Operacion(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	
+	
+}

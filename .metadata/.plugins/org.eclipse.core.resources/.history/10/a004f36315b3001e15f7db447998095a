@@ -1,0 +1,53 @@
+package poo_interfaces_repositorio.repositori;
+
+import java.util.List;
+
+import poo_interfaces_repositorio.modelo.Cliente;
+
+public class ClienteListRepositorio implements CrudRepositorio,
+											   OrdenableRepositorio,
+											   PaginableRepositorio{
+
+	@Override
+	public List<Cliente> lista() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Cliente porId(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void crear(Cliente cliente) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void editar(Cliente cliente) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eliminar(Integer id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Cliente> listar(int desde, int hasta) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Cliente> listar(String campo, Direccion dir) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

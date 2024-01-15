@@ -1,0 +1,16 @@
+package anotaciones.salvatore.pulino.main;
+
+import java.time.LocalDate;
+
+import anotaciones.org.salvatore.pulino.models.Producto;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Producto p = new Producto();
+		
+		p.setFecha(LocalDate.now());
+		p.setNombre("mesa centro roble");
+		p.setPrecio(1000L);
+	}
+}

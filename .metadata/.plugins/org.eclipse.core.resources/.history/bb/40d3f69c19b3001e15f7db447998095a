@@ -1,0 +1,11 @@
+package poo_interfaces_repositorio;
+
+import poo_interfaces_repositorio.repositori.ClienteListRepositorio;
+import poo_interfaces_repositorio.repositori.CrudRepositorio;
+
+public class EjemploRepositorio {
+	public static void main(String[] args) {
+		
+		CrudRepositorio repo = new ClienteListRepositorio();
+	}
+}

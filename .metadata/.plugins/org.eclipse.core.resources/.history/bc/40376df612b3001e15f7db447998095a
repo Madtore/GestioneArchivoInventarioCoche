@@ -1,0 +1,5 @@
+package poo_interfaces_repositorio.modelo;
+
+public class Cliente {
+
+}

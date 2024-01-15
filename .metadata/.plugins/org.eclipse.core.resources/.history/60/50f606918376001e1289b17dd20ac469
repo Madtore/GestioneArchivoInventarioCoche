@@ -1,0 +1,11 @@
+package pruebasProgramacionFuncional;
+
+import java.util.List;
+
+public class FuncionalConListaDeString {
+	public static void main(String[] args) {
+		
+		
+		List<String> nombresList = List.of("Adriana","","","","","","",);
+	}
+}

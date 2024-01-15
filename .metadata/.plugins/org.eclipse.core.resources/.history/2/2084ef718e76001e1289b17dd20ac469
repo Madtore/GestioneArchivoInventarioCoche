@@ -1,0 +1,39 @@
+package pruebasProgramacionFuncional;
+
+import java.util.ArrayList;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Stream;
+
+public class FuncionalConListaDeString {
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args) {
+
+		List<String> nombresList = List.of("Adriana", "Adriana", "Marta", "Sandra", "Sandra", "Jessica", "Adriana");
+
+		// eliminar elementos repetidos
+		Set<String> nombresListNoRepete = new HashSet<String>();
+
+		nombresListNoRepete.addAll(nombresList);
+
+		nombresListNoRepete.forEach(e -> System.out.println(" " + e.toString()));
+
+		// UpCase
+
+		List<String> lista = new List<String>();
+		lista.addAll(nombresList);
+	    
+	    lista.replaceAll(String::toUpperCase);
+	    lista.forEach(System.out::println);
+		
+		
+		
+		
+		
+
+		
+		
+	}
+}

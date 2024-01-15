@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;tarea.Tarea.java&apos; to &apos;Teatro.java&apos;&#x0D;&#x0A;- Original project: &apos;esercicios&apos;&#x0D;&#x0A;- Original element: &apos;tarea.Tarea.java&apos;&#x0D;&#x0A;- Renamed element: &apos;tarea.Teatro.java&apos;" description="Rename compilation unit &apos;Tarea.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;tarea{Tarea.java" name="Teatro.java" references="false" stamp="1699004891640" version="1.0"/>
+</session>

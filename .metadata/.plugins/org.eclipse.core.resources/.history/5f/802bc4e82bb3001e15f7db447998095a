@@ -1,0 +1,5 @@
+package anotaciones.org.salvatore.pulino.models;
+
+public class Producto {
+
+}

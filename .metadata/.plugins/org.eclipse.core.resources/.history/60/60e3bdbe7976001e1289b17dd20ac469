@@ -1,0 +1,48 @@
+package pruebasProgramacionFuncional;
+
+import java.math.BigDecimal;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class Funcional {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//List<Integer> numeros = List.of(11, 8, 9, 15, 39, 1, 4, 83);
+		
+		//numeros.forEach(System.out::println);
+		
+		//numeros.stream().sorted(Comparator.naturalOrder()).forEach(System.out::println);
+		
+		// con programacion funcional
+		
+		
+		List<Integer> numeros = List.of(11, 8, 9, 15, 39, 1, 4, 83, 1);
+		
+		//sacar los numeros superiores a 10
+		
+		List<List<Integer>> result = List.of(numeros.stream().filter(num -> num > 10).collect(Collectors.toList())); 
+		
+		result.forEach(System.out::println);
+		
+		
+		Set<Integer> noRepet = new HashSet<Integer>();
+		
+		noRepet.addAll(numeros);
+		
+		numeros.forEach(System.out::println);
+		
+	}
+	
+	
+	
+	
+
+}

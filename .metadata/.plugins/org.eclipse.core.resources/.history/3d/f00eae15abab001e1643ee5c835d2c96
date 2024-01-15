@@ -1,0 +1,14 @@
+package casopracticotres;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Moltiplicar moltiplicar = new Moltiplicar(3,2);
+		
+		
+		System.out.println(moltiplicar.moltiplicar());
+	}
+
+}

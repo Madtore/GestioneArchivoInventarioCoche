@@ -1,0 +1,65 @@
+package poo_interfaces_repositorio.repositori;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import poo_interfaces_repositorio.modelo.Cliente;
+
+public class ClienteListRepositorio implements CrudRepositorio,
+											   OrdenableRepositorio,
+											   PaginableRepositorio{
+	
+	private List<Cliente> dataSource;
+	
+	
+	
+	public ClienteListRepositorio() {
+		this.dataSource= new ArrayList<Cliente>();
+	}
+
+	@Override
+	public List<Cliente> lista() {
+		return dataSource;
+	}
+
+	@Override
+	public Cliente porId(Integer id) {
+		Cliente cliente = lista().stream()
+				.filter((e)-> e.getId()==id)
+				.findFirst()
+				.get();
+		return cliente;
+	}
+
+	@Override
+	public void crear(Cliente cliente) {
+		this.dataSource.add(cliente);
+		
+	}
+
+	@Override
+	public void editar(Cliente cliente) {
+		Cliente c = this.porId(cliente.getId()) ;
+		c.setApellido(cliente.getApellido());
+		c.setNombre(cliente.getNombre());
+	}
+
+	@Override
+	public void eliminar(Integer id) {
+		Cliente cliente
+		
+	}
+
+	@Override
+	public List<Cliente> listar(int desde, int hasta) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Cliente> listar(String campo, Direccion dir) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

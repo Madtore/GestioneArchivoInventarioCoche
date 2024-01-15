@@ -1,0 +1,22 @@
+package poo_interfaces_repositorio;
+
+import java.util.List;
+
+import poo_interfaces_repositorio.modelo.Cliente;
+import poo_interfaces_repositorio.repositori.ClienteListRepositorio;
+import poo_interfaces_repositorio.repositori.CrudRepositorio;
+
+public class EjemploRepositorio {
+	public static void main(String[] args) {
+		
+		CrudRepositorio repo = new ClienteListRepositorio();
+		
+		repo.crear(new Cliente("Jano", "Perez"));
+		repo.crear(new Cliente("Bea", "Gonzalez"));
+		repo.crear(new Cliente("Luz", "Martinez"));
+		repo.crear(new Cliente("Andres", "Guzman"));
+		
+		
+		List<Cliente> clientes = repo.listar();
+	}
+}

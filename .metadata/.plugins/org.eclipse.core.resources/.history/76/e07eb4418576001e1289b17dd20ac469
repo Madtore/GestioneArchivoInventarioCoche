@@ -1,0 +1,20 @@
+package pruebasProgramacionFuncional;
+
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class FuncionalConListaDeString {
+	public static void main(String[] args) {
+		
+		
+		
+		@SuppressWarnings("unchecked")
+		Stream<String> nombresList = (Stream<String>) List.of("Adriana","Adriana","Marta","Sandra","Sandra","Jessica","Adriana");
+		
+		Set<String> nombresListNoRepeate =  nombresList.collect(Collectors.toSet());
+		
+		nombresListNoRepeate.forEach(System.out::println);
+	}
+}

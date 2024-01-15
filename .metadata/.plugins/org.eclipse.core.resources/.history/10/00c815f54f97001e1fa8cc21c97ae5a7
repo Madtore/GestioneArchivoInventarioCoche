@@ -1,0 +1,11 @@
+package tarea;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Coordinate coordinate = new Coordinate(1.0, 2.0);
+		
+		System.out.println(coordinate.distanceBeetweenTwoCoordinate(new Coordinate(3.0, 4.0)));
+		
+	}
+}
