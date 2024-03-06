@@ -1,8 +1,0 @@
-package casopracticotres;
-
-abstract class Operacion {
-	private int a;
-	private int b;
-	
-	abstract double operar();
-}

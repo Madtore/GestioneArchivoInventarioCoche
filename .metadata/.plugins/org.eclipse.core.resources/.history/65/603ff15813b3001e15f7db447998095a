@@ -1,5 +1,0 @@
-package poo_interfaces_repositorio.repositori;
-
-public interface CrudRepositorio {
-
-}

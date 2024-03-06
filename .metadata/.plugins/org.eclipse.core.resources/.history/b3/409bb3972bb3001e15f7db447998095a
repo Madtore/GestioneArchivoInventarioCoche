@@ -1,5 +1,0 @@
-package anotaciones.org.salvatore.pulino.anotaciones;
-
-public @interface JsonAtributo {
-
-}

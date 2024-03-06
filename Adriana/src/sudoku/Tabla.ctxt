@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Tabla()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Tabla\r\n
+comment1.params=valor\ lin\ col
+comment1.target=void\ addCelda(java.lang.String,\ int,\ int)
+comment2.params=lin\ col
+comment2.target=Celda\ getCelda(int,\ int)
+comment3.params=
+comment3.target=boolean\ verificaTabla()
+comment4.params=
+comment4.target=void\ printTabla()
+numComments=5
